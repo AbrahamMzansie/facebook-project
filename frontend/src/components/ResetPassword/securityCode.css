@@ -1,0 +1,177 @@
+.securityCodeContainer {
+  display: flex;
+  flex-direction: column;
+}
+.securityCodeTopBarWrapper {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  top: 0;
+  position: sticky;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  z-index: 999;
+}
+
+.securityCodeTopBarLeft {
+  flex: 4;
+  width: 100%;
+}
+.securityCodeTopBarRight {
+  margin-top: 0px;
+}
+
+.securityCodeTopBarLogo {
+  font-size: 30px;
+  margin-left: 20px;
+  font-weight: 800;
+  color: #1877f2;
+  cursor: pointer;
+  width: 130px;
+}
+.securityCodeInput {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 10px;
+  margin-right: 20px;
+  width: 200px;
+}
+.securityCodeInput:focus {
+  outline: none;
+  background-color: white;
+}
+.securityCodeButtonLogin {
+  background-color: #1877f2;
+  color: #fff;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  width: 80px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.securityCodeLink {
+  cursor: pointer;
+  color: #1877f2;
+  margin-right: 20px;
+}
+.securityCodeBox {
+  display: flex;
+  background-color: #e9ebee;
+  height: calc(100vh - 60px);
+}
+.securityCodeBoxContainer {
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 10%), 0 2px 4px rgb(0 0 0 / 10%);
+  margin: auto;
+  width: 500px;
+}
+
+.securityCodeBoxTop {
+  font-size: 12px;
+  color: #1c1e21;
+  border-bottom: 1px solid #aaa;
+  padding: 15px 0 16px 15px;
+}
+.securityCodeBoxTopTitle {
+  padding: 6px 0 6px 6px;
+}
+
+.securityCodeBoxCenterWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.securityCodeBoxCenter {
+  display: flex;
+  padding-left: 20px;
+}
+
+.securityCodeBoxCenterLeftCode {
+  display: flex;
+  padding-bottom: 20px;
+}
+.securityCodeBoxCenterLeftCodeInput {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 10px;
+  margin-right: 20px;
+  width: 220px;
+  font-size: 15px;
+}
+.securityCodeBoxCenterLeftCodeInput:focus {
+  outline: none;
+  background-color: white;
+}
+.securityCodeBoxCenterRightTitle {
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+.securityCodeBoxCenterRightEmail {
+  font-size: 13px;
+  font-weight: 200;
+}
+.securityCodeBoxCenterLeftTitle {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.securityCodeBoxCenterLeftEmail {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  font-size: 17px;
+}
+.securityCodeBoxCenterLeftChoice {
+  margin-right: 5px;
+}
+.securityCodeBoxCenterRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.securityCodeBoxBottom {
+  display: flex;
+  border-top: 1px solid #aaa;
+  padding-left: 20px;
+  justify-content: space-between;
+}
+.securityCodeBoxBottomLeft {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.securityCodeBoxBottomLeftTitle {
+  cursor: pointer;
+  color: #1877f2;
+  font-size: 14px;
+}
+.securityCodeBoxBottomRight {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.securityCodeBoxBottomRightButton {
+  height: 40px;
+  width: 100px;
+  margin-right: 10px;
+  background-color: #e4e6eb;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.securityCodeBoxBottomRightButtonContinue {
+  background-color: #1877f2;
+  color: #fff;
+}
